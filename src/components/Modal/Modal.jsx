@@ -24,6 +24,7 @@ export const ModalComponent = ({ isModalVisible, setIsModalVisible }) => {
       onCancel={handleCancel}
       okButtonProps={{ disabled: false }}
       cancelButtonProps={{ disabled: false }}
+      centered={true}
     >
       <div className={styles.imageCard}>
         <img className={styles.image} alt={image.alt} src={image.url} />
