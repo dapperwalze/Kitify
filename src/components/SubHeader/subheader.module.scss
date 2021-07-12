@@ -1,0 +1,32 @@
+.pageSubHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+.currentPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.currentPageName {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  line-height: 30px;
+  font-weight: 500;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 800px) {
+  .pageSubHeader {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 30px;
+  }
+}

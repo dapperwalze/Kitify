@@ -1,0 +1,78 @@
+.sideBar {
+  width: 20%;
+  height: auto;
+  border-right: 1px solid #57595d;
+}
+
+.list {
+  width: 100%;
+  background: #1f2125;
+  border: none;
+}
+.listItem {
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-size: 0.875rem;
+  line-height: 30px;
+  font-weight: 500;
+  color: #fff;
+  border-bottom: 1px solid #57595d !important;
+  cursor: pointer;
+}
+
+.description {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.imageCount {
+  font-family: "Inter", sans-serif;
+  font-size: 0.875rem;
+  line-height: 30px;
+  font-weight: 500;
+  color: #57595d;
+}
+.gallery {
+  width: 100%;
+  background-color: #1f2125;
+  border: none;
+  margin-top: 10px;
+}
+.galleryHeader {
+  background-color: #2d2e35;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  line-height: 30px;
+  font-weight: 500;
+  color: #fff;
+  padding: 7px 20px;
+}
+.createNewButton {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  line-height: 30px;
+  font-weight: 500;
+  color: #57595d;
+  border: none;
+}
+.createNewButton:hover {
+  .plusIcon {
+    color: #1890ff;
+  }
+}
+.plusIcon {
+  font-size: 1.5rem;
+  color: #57595d;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 800px) {
+  .sideBar {
+    width: 100%;
+    height: auto;
+    border-right: 1px solid #57595d;
+  }
+}
