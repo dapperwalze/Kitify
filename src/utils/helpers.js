@@ -11,7 +11,7 @@ export const imageRenderer = (
   const modalState = () => {
     setIsModalVisible(true);
   };
-
+  console.log(typeof setIsModalVisible);
   return imageDataSlice.map((image) => (
     <Link
       key={image.id}
