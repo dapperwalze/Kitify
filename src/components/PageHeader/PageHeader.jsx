@@ -8,7 +8,7 @@ export const PageHeader = () => {
     <header className={styles.mainHeader}>
       <nav className={styles.navBar}>
         <NavLink to="/" className={styles.brandName}>
-          Flamingo
+          Flameengo
         </NavLink>
 
         <NavLink
