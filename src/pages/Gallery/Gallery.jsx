@@ -9,14 +9,12 @@ import {
 } from "@ant-design/icons";
 import { imageRenderer } from "./../../utils/helpers";
 import styles from "./gallery.module.scss";
-import { IMAGES } from "./../../store/imagesApi";
 
 export const Gallery = ({ setIsModalVisible }) => {
   let location = useLocation();
 
   const columnOneImages = imageRenderer(
     Thumbnail,
-    IMAGES,
     0,
     7,
     Link,
@@ -25,7 +23,6 @@ export const Gallery = ({ setIsModalVisible }) => {
   );
   const columnTwoImages = imageRenderer(
     Thumbnail,
-    IMAGES,
     7,
     13,
     Link,
@@ -34,7 +31,6 @@ export const Gallery = ({ setIsModalVisible }) => {
   );
   const columnThreeImages = imageRenderer(
     Thumbnail,
-    IMAGES,
     13,
     20,
     Link,
@@ -43,7 +39,6 @@ export const Gallery = ({ setIsModalVisible }) => {
   );
   const columnFourImages = imageRenderer(
     Thumbnail,
-    IMAGES,
     20,
     27,
     Link,

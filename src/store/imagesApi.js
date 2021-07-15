@@ -158,7 +158,7 @@ export const IMAGES = [
   },
 ];
 
-//export const locallyStoredData = window.localStorage.setItem(
-// "userGallery",
-// JSON.stringify(IMAGES)
-//);
+export const locallyStoredData = localStorage.setItem(
+  "userGallery",
+  JSON.stringify(IMAGES)
+);
