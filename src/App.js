@@ -25,7 +25,7 @@ const App = () => {
         <Content>
           <Switch location={background || location}>
             <Route exact path="/">
-              <Gallery />
+              <Gallery setIsModalVisible={setIsModalVisible} />
             </Route>
             <Route path="/gallery">
               <Gallery setIsModalVisible={setIsModalVisible} />

@@ -8,8 +8,8 @@ import {
   ShareAltOutlined,
 } from "@ant-design/icons";
 import { imageRenderer } from "./../../utils/helpers";
-import { IMAGES } from "./../../store/imagesApi";
 import styles from "./gallery.module.scss";
+import { IMAGES } from "./../../store/imagesApi";
 
 export const Gallery = ({ setIsModalVisible }) => {
   let location = useLocation();
@@ -45,7 +45,7 @@ export const Gallery = ({ setIsModalVisible }) => {
     Thumbnail,
     IMAGES,
     20,
-    26,
+    27,
     Link,
     location,
     setIsModalVisible

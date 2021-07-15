@@ -157,3 +157,8 @@ export const IMAGES = [
     url: "https://www.w3schools.com/w3images/underwater.jpg",
   },
 ];
+
+//export const locallyStoredData = window.localStorage.setItem(
+// "userGallery",
+// JSON.stringify(IMAGES)
+//);

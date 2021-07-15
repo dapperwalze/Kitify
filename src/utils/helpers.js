@@ -1,13 +1,17 @@
 export const imageRenderer = (
   Component,
-  imageData,
+  IMAGES,
   startIndex,
   endIndex,
   Link,
   location,
   setIsModalVisible
 ) => {
-  const imageDataSlice = imageData.slice(startIndex, endIndex);
+  //const dataFromLocalStorage = JSON.parse(
+  //window.localStorage.getItem("userGallery")
+  //);
+
+  const imageDataSlice = IMAGES.slice(startIndex, endIndex);
 
   const modalState = () => {
     setIsModalVisible(true);

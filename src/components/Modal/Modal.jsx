@@ -6,7 +6,7 @@ import styles from "./modal.module.scss";
 export const ModalComponent = ({ isModalVisible, setIsModalVisible }) => {
   let history = useHistory();
   let { id } = useParams();
-  let image = IMAGES[parseInt(id, 10)];
+  let image = IMAGES[parseInt(--id, 10)];
 
   if (!image) return null;
 
