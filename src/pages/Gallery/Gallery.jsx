@@ -17,8 +17,8 @@ export const Gallery = ({ setIsModalVisible }) => {
   const columnOneImages = imageRenderer(
     Thumbnail,
     IMAGES,
-    1,
-    8,
+    0,
+    7,
     Link,
     location,
     setIsModalVisible
@@ -26,8 +26,8 @@ export const Gallery = ({ setIsModalVisible }) => {
   const columnTwoImages = imageRenderer(
     Thumbnail,
     IMAGES,
-    8,
-    14,
+    7,
+    13,
     Link,
     location,
     setIsModalVisible
@@ -35,8 +35,8 @@ export const Gallery = ({ setIsModalVisible }) => {
   const columnThreeImages = imageRenderer(
     Thumbnail,
     IMAGES,
-    14,
-    21,
+    13,
+    20,
     Link,
     location,
     setIsModalVisible
@@ -44,8 +44,8 @@ export const Gallery = ({ setIsModalVisible }) => {
   const columnFourImages = imageRenderer(
     Thumbnail,
     IMAGES,
-    21,
-    27,
+    20,
+    26,
     Link,
     location,
     setIsModalVisible

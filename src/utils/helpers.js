@@ -8,6 +8,8 @@ export const imageRenderer = (
   setIsModalVisible
 ) => {
   const imageDataSlice = imageData.slice(startIndex, endIndex);
+  console.log(imageDataSlice);
+
   const modalState = () => {
     setIsModalVisible(true);
   };
